@@ -216,13 +216,16 @@ commit 상세 내용 작성
 4. branch 삭제하기
 
 ```bash
-
+    git branch -D test
+    git branch -v
 ```
 
 5. branch 합치기
 
-```bash
+- `주의사항 : main branch에서 test branch를 합쳐야함`
 
+```bash
+    git merge 합쳐주고자하는 branch명
 ```
 
 # GitHub
