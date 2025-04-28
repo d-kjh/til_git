@@ -230,15 +230,56 @@ commit 상세 내용 작성
 
 ##### 4-8. git branch 충돌 해결해보기
 
-- git branch를 merge하면 자주 발생
-<<<<<<< HEAD
-- main에서 계속 작업을 하고 있음
-=======
-- `login branch`에서 나는 login 기능을 구현함
->>>>>>> login
+- github 협업해서 상세히 알아보자
 
 # GitHub
 
+### 1. github 회원가입하기
+
+- https://github.com/
+
+### 2. github 프로젝트(Repository) 생성하기
+
+- 만약 til_git 프로젝트 생성했다면 github에도 생성하자
+- public으로 셋팅 : 외부로 소스 공개
+- description 은 작성하길 권장 : 프로젝트 설명
+
+### 3. github 인증하기
+
+##### 3-1. 반드시 github에 로그인 된 상태로 시도
+
+##### 3-2. `window키 > 자극 증명 관리자 검색 > Windows 자격 증명`에서 github확인
+
+- 새로 생성하길 권장
+- pc 정리 또는 자리 이동시 반드시 삭제
+
+### 4. github 프로젝트 연결하기
+
+##### 4-1. 원격 저장소 주소 지정하기
+
+- `remote`는 원격(인터넷)을 의미
+- `add`는 추가를 의미
+- `origin`
+  - http주소를 간략하게 별칭을 준 의미
+  - 단어는 마음대로 가능
+  - `원격 이름`을 말함
+
+```bash
+    git remote add origin https://github.com/아이디/til_git.git
 ```
 
+##### 4-2. 원격 저장소 목록 보기
+
+```bash
+    git remote -v
+```
+
+##### 4-3. 원격 저장소에 소스 등록하기
+
+- 습관적으로 하면 좋은작업
+  (Ctrl + s)
+
+```bash
+    git add .
+    git commit -m "[docs]:최초등록"
 ```
