@@ -187,6 +187,44 @@ commit 상세 내용 작성
 - Date : 날짜
 - massege : 상세 내용
 
+##### 4-7. branch 작업해보기
+
+- `나뭇가지`라는 의미로 원 줄기로부터 파생되는 것을 말함
+- 원 `소스`로부터 파생한 새롭게 `분기한 소스`관리를 말함
+- branch 생성시에는 add와 commit이 완료되어야 함
+
+1. branch 생성하기
+
+```bash
+    git add .
+    git commit -m "[docs]:branch test"
+    git branch test
+```
+
+2. branch 목록보기
+
+```bash
+    git branch -v
+```
+
+3. branch 이동하기
+
+```bash
+    git switch test
+```
+
+4. branch 삭제하기
+
+```bash
+
+```
+
+5. branch 합치기
+
+```bash
+
+```
+
 # GitHub
 
 ```
