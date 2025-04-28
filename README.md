@@ -100,6 +100,26 @@
     git add README.md
 ```
 
+- 모든 파일 및 폴더 저장하기(권장)
+
+```bash
+    git add .
+```
+
+##### 4-4. 메모 남기기
+
+- 한 줄 작업 메모
+
+```bash
+    git commit -m "git 작업 관련 설명글작성"
+```
+
+- 여려 줄 메모 (제목, 상세내용)
+
+```bash
+    git commit
+```
+
 # GitHub
 
 ```
