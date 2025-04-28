@@ -231,6 +231,7 @@ commit 상세 내용 작성
 ##### 4-8. git branch 충돌 해결해보기
 
 - git branch를 merge하면 자주 발생
+- `login branch`에서 나는 login 기능을 구현함
 
 # GitHub
 
