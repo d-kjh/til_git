@@ -283,3 +283,37 @@ commit 상세 내용 작성
     git add .
     git commit -m "[docs]:최초등록"
 ```
+
+- 소스 업로드를 `push`라고 함
+
+```bash
+    git push -u origin main
+```
+
+- `-u`옵션을 붙였으면 이후로는 `git push`만 하면 됨
+
+##### 4-4. 원격 저장소 관리하기
+
+- 목록보기
+
+```bash
+    git remote -v
+```
+
+- 삭제하기
+
+```bash
+    git remote remove 원격이름
+```
+
+- 추가하기
+
+```bash
+    git remote add 원격이름 https://github.com/아이디/til_git.git
+```
+
+- 이름바꾸기
+
+```bash
+    git remote rename 현재원격이름 새로운이름
+```
