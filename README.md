@@ -228,6 +228,10 @@ commit 상세 내용 작성
     git merge 합쳐주고자하는 branch명
 ```
 
+##### 4-8. git branch 충돌 해결해보기
+
+- git branch를 merge하면 자주 발생
+
 # GitHub
 
 ```
