@@ -317,3 +317,17 @@ commit 상세 내용 작성
 ```bash
     git remote rename 현재원격이름 새로운이름
 ```
+
+##### 4-5. 추천 작업순서
+
+```bash
+    git add .
+    git commit -m "[docs]:깃학습"
+    git push origin main
+```
+
+### 5. github의 소스를 다운로드 받아서 작업하는 방법
+
+- github 주소를 주의
+- 기준은 `https`로 진행 중
+- 코드 소스 기준이 `ssh`면 인증을 다시 처리하는 과정이 필요
