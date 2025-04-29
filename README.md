@@ -345,3 +345,16 @@ commit 상세 내용 작성
 ```bash
     git clone https://github.com/d-kjh/til_git.git .
 ```
+
+##### 5-3. clone 이후의 작업
+
+```bash
+    git status
+    git branch -v
+    git branch 브랜치명
+    git switch 브랜치명
+    작업진행
+    git add .
+    git commit -m "작업내용"
+    git push origin 브랜치명
+```
