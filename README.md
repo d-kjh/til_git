@@ -397,3 +397,23 @@ commit 상세 내용 작성
 ```bash
     git switch --track -c 생성브랜치명 원격브랜치명
 ```
+
+### 6. github 브랜치 삭제하기
+
+- github 브랜치 모두 내려받기 및 local 및 github 브랜치 목록 모두 보기
+
+```bash
+    git fetch --all
+    git branch -a
+```
+
+- github의 브랜치 삭제하기
+  -> ex) `git push origin --delete jeju`
+
+```bash
+    git push 저장소이름 --delete 브랜치이름
+```
+
+### 7. 가능하면 브랜치는 삭제하지 않기를 권장
+
+### 8. 가능하면 commit의 내용은 수정,삭제하지 않기를 권장
