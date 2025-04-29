@@ -331,3 +331,17 @@ commit 상세 내용 작성
 - github 주소를 주의
 - 기준은 `https`로 진행 중
 - 코드 소스 기준이 `ssh`면 인증을 다시 처리하는 과정이 필요
+
+##### 5-1. 실습
+
+- 본인PC없이 하고있던 내용을 받고싶을 때
+- PC에 환경 설정 진행 (VSCode, git)
+- /stdent/`test` 폴더 생성
+- github 사이트에 프로젝트를 'clone' 한다
+- github 사이트에 Repository를 'clone' 한다
+
+##### 5-2. clone
+
+```bash
+    git clone https://github.com/d-kjh/til_git.git .
+```
