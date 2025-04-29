@@ -350,13 +350,50 @@ commit 상세 내용 작성
 
 ```bash
     git status
+```
+
+```bash
     git branch -v
     git branch 브랜치명
     git switch 브랜치명
-    작업진행
+```
+
+`작업`
+
+```bash
     git add .
     git commit -m "작업내용"
+```
+
+```bash
     git push origin 브랜치명
 ```
 
-hi hi
+##### 5-4. git push 이후 작업
+
+- jeju 폴더는 clone을 하여 진행
+- til_git 폴더는 clone을 할 필요가 있을까?
+  -> til_git 폴더는 이미 git 세팅이 되어있어서 clone은 필요x
+
+##### 5-5. 기존 프로젝트에서 github 브랜치 적용하기
+
+- 기존 프로젝트에서는 clone을 하지 않음
+- 기존 프로젝트에서는 `fetch 사용`
+- 1. fetch는 github에서 모든 브랜치를 가져옴
+
+```bash
+    git fetch --all
+```
+
+- 2. 브랜치 전체목록보기(local과 github 브랜치 모두)
+
+```bash
+    git branch -a
+```
+
+- 3. 새롭게 작업한 `github 브랜치`를 `local 브랜치 생성 > 작업` 동시 진행
+     -> ex) `git switch --track -c jeju remotes/origin/jeju`
+
+```bash
+    git switch --track -c 생성브랜치명 원격브랜치명
+```
